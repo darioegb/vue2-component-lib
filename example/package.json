@@ -1,21 +1,17 @@
 {
-  "name": "vue-fakelib",
-  "version": "0.0.6",
-  "author": "darioegb <darioegb@gmail.com>",
-  "license": "MIT",
-  "private": false,
-  "main": "dist/vue-fakelib.umd.min.js",
-  "unpkg": "dist/vue-fakelib.umd.min.js",
+  "name": "vue-fakelib-app",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-fakelib src/main.js",
+    "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint",
-    "prepublishOnly": "$npm_execpath build"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-fakelib": "link:.."
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.15",
@@ -32,12 +28,5 @@
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
-  },
-  "files": [
-    "dist/vue-fakelib.umd.min.js"
-  ],
-  "keywords": [
-    "vue",
-    "vuejs"
-  ]
+  }
 }

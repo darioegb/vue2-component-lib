@@ -1,4 +1,4 @@
-# vue-fakelib
+# test-vue
 
 ## Project setup
 ```

@@ -22,6 +22,4 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
-#test
-coverage
-__snapshots__*
+packages
