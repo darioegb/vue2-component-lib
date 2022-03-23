@@ -1,13 +1,16 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <base-button>Test Button</base-button>
+    <base-button @click="handleClick">Test Button</base-button>
   </div>
 </template>
 
 <script>
 export default {
   name: 'App',
+  methods: {
+    handleClick: () => console.log('click event'),
+  },
 };
 </script>
 
