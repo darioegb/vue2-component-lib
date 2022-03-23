@@ -1,13 +1,19 @@
 # BaseButton
 
-This component is a dropdown menu with checkboxes option to filter data.
+This component is a button.
 
 ## Component props
 
 | Prop     | Required | Type    | Description                   |
 | -------- | -------- | ------- | ----------------------------- |
-| disabled | false    | boolean | if true disabled button click |
-| type     | false    | string  | type of button                |
+| disabled | false    | boolean | If true disabled button click |
+| type     | false    | string  | Type of button                |
+
+## Component events
+
+| Prop  | Type | Description                    |
+| ----- | ---- | ------------------------------ |
+| click | void | Is trigger when button clicked |
 
 ## How to use:
 
