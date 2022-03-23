@@ -27,3 +27,7 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### Components
+[!INCLUDE [base button](src/components/BaseButton/README.md)]
