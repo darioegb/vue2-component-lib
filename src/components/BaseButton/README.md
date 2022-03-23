@@ -28,9 +28,7 @@ _Example_
         buttonText: 'Test button', // you can also get text from translation file
     }),
 	methods: {
-		handleClick(selected) {
-			// do something
-		},
+		handleClick: () => // do something,
 	}
   };
 </script>
