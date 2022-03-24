@@ -1,11 +1,15 @@
 {
   "name": "vue-fakelib",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "author": "darioegb <darioegb@gmail.com>",
   "license": "MIT",
   "private": false,
   "main": "dist/vue-fakelib.umd.min.js",
   "unpkg": "dist/vue-fakelib.umd.min.js",
+  "repository": {
+    "url": "https://gitlab.com/darioegb/vue-fakelib",
+    "type": "git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vue-fakelib src/main.js",
